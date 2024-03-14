@@ -42,7 +42,7 @@ const Formulario = ({ pacientes, setPacientes }) => {
 
   return (
     <form
-      className=" col-5 shadow p-5 me-5 ms-3 border border-secondary pt-4 "
+      className=" col-11 col-md-5 shadow p-5 ms-3 mb-3 border border-secondary pt-4 "
       onSubmit={agregarPaciente}
       style={{ maxWidth: "600px" }}
     >
@@ -109,7 +109,7 @@ const Formulario = ({ pacientes, setPacientes }) => {
         />
       </div>
       <div className="d-flex justify-content-end mt-5">
-        <button className="btn btn-primary col-4 mt-5">
+        <button className="btn btn-primary mt-5">
           {" "}
           <i class="bi bi-arrow-right-short fs-5 m-0 p-0"> Registrar</i>{" "}
         </button>
